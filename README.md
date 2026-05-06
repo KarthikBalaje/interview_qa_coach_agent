@@ -1,6 +1,9 @@
 # Interview Q&A Coach Agent
 
-Use Case: A user provides a job role (e.g., "Data Analyst at a fintech startup"). The agent generates likely interview questions and then provides model answers.
+Use Case: 
+
+A user provides a job role (e.g., "Data Analyst at a fintech startup"). 
+The agent generates likely interview questions and then provides model answers.
 
 Tool 1 — generate_interview_questions
 
@@ -14,5 +17,7 @@ Tool 2 — generate_model_answers
 	• Task: Write concise, impressive model answers for each question using the STAR format (Situation, Task, Action, Result) where applicable
 	• Output: Each question followed by its model answer
   
-System Prompt: The agent acts as a career coach who prepares candidates to ace job interviews with confidence.
+System Prompt: 
+
+The agent acts as a career coach who prepares candidates to ace job interviews with confidence.
 
