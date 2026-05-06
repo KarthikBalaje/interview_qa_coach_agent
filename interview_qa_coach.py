@@ -150,6 +150,7 @@ Question 2. {questions}
 Answer :
 ============================================================
 - Each question & it's respective answer should be grouped together and separated from the next question by a seperator as mentioned above example.
+- Also add a classification of the question type (technical skills, behavioural situations, and role-specific scenarios) in brackets before each question.
 - Provide comprehensive answers using the STAR format where applicable, nothing else.""",
     )
 
