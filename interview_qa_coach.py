@@ -97,7 +97,7 @@ logger.info("Defining agent tools...")
 def generate_interview_questions(job_role: str) -> str:
     """
     Input: job role and optionally a skill or domain to focus on
-	Task: Generate 8–10 realistic interview questions covering technical skills, behavioural situations, and role-specific scenarios
+	Task: Generate 8-10 realistic interview questions covering technical skills, behavioural situations, and role-specific scenarios
 	Output: A numbered list of interview questions grouped by type
     """
     logger.info(f"[Tool: generate_interview_questions] Received job role: '{job_role}'")
@@ -105,7 +105,7 @@ def generate_interview_questions(job_role: str) -> str:
     interview_prompt = PromptTemplate(
         input_variables=["job_role"],
         template="""You are an interview preparation expert.
-Given the following job role, generate 8–10 realistic interview questions covering technical skills, 
+Given the following job role, generate 8-10 realistic interview questions covering technical skills, 
 behavioural situations, and role-specific scenarios
 
 Job Role: {job_role}
