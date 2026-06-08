@@ -1,5 +1,5 @@
 # =============================================================
-# Requirements for LangChain Email Humanizer Agent
+# Requirements for Interview Q&A Coach Agent
 # =============================================================
 # langchain       - The core framework for building LLM applications
 # langchain-openai - OpenAI integration for LangChain
@@ -11,3 +11,4 @@ langchain>=0.3.0
 langchain-openai>=0.3.0
 openai>=1.0.0
 python-dotenv>=1.0.0
+pytest>=8.0.0
